@@ -1,0 +1,106 @@
+/* === PANEL GENERAL === */
+.bg-panel {
+    background: var(--rosa-bg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background: var(--blanco);
+    box-shadow: 2px 0 12px var(--sombra);
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.sidebar-title {
+    text-align: center;
+    color: var(--rosa);
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: var(--rosa-suave);
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.sidebar a:hover {
+    background: var(--rosa);
+}
+
+.sidebar a.active {
+    background: var(--rosa);
+}
+
+.sidebar a.admin {
+    background: #ffd6ec;
+    color: #b30074;
+}
+
+.logout {
+    background: #ff99c2 !important;
+}
+
+/* === CONTENIDO PRINCIPAL === */
+.main-content {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+.welcome {
+    font-size: 26px;
+    color: var(--rosa);
+    margin-bottom: 30px;
+}
+
+/* === TARJETAS === */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: var(--blanco);
+    width: 200px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px var(--sombra);
+    text-align: center;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px var(--sombra);
+}
+
+.card h3 {
+    color: var(--rosa);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 28px;
+    color: var(--texto);
+}
+
+/* === GRÁFICO === */
+.chart-container {
+    margin-top: 40px;
+    background: var(--blanco);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px var(--sombra);
+}

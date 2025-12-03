@@ -1,0 +1,34 @@
+/* === VARIABLES ROSAS GLOBALES === */
+:root {
+    --rosa: #ff7ac4;
+    --rosa-claro: #ffbce6;
+    --rosa-bg: #ffe6f3;
+
+    --blanco: #ffffff;
+    --gris: #555;
+    --gris-suave: #aaa;
+
+    --sombra: rgba(255, 122, 196, 0.35);
+}
+
+/* === ESTILO GLOBAL === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--rosa-bg);
+    color: var(--gris);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* === ANIMACIONES === */
+.fade {
+    animation: fade 0.6s ease;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}

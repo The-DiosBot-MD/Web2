@@ -1,0 +1,34 @@
+.instance-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.instance-card {
+    width: 260px;
+    background: var(--blanco);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 18px var(--sombra);
+}
+
+.instance-card h3 {
+    color: var(--rosa);
+}
+
+.online { color: green; font-weight: bold; }
+.offline { color: red; font-weight: bold; }
+
+.btn-rosa-small,
+.btn-gray-small,
+.btn-red-small {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-rosa-small { background: var(--rosa); color: white; }
+.btn-gray-small { background: #ddd; }
+.btn-red-small { background: #ff6b6b; color: white; }

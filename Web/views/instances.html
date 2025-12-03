@@ -1,0 +1,26 @@
+@@include('../layouts/layout.html', {
+"title": "Mis Instancias",
+"content": `
+<h2 class="page-section">🤖 Mis Instancias</h2>
+
+<div class="instance-list">
+
+<div class="instance-card">
+    <h3>MikuBot-01</h3>
+    <p>Estado: <span class="online">🟢 Activo</span></p>
+    <button class="btn-rosa-small" onclick="location.href='qr.html'">Ver QR</button>
+    <button class="btn-gray-small">Reiniciar</button>
+    <button class="btn-red-small">Eliminar</button>
+</div>
+
+<div class="instance-card">
+    <h3>MikuBot-02</h3>
+    <p>Estado: <span class="offline">🔴 Apagado</span></p>
+    <button class="btn-rosa-small">Ver QR</button>
+    <button class="btn-gray-small">Iniciar</button>
+    <button class="btn-red-small">Eliminar</button>
+</div>
+
+</div>
+`
+})

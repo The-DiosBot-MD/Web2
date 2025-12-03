@@ -1,0 +1,9 @@
+.logs-box {
+    background: #111;
+    color: #0f0;
+    padding: 20px;
+    height: 350px;
+    overflow-y: auto;
+    border-radius: 16px;
+    box-shadow: 0 0 18px var(--sombra);
+}

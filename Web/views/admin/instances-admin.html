@@ -1,0 +1,29 @@
+@@include('../../layouts/layout.html', {
+"title": "Todas las Instancias",
+"content": `
+<h2 class="page-section">📊 Instancias del Sistema</h2>
+
+<table class="table">
+    <tr>
+        <th>Usuario</th>
+        <th>Nombre</th>
+        <th>Repositorio</th>
+        <th>Estado</th>
+        <th>Acciones</th>
+    </tr>
+
+    <tr>
+        <td>MikuUwU</td>
+        <td>MikuBot-01</td>
+        <td>MikuBot MD</td>
+        <td><span class="online">🟢 Activo</span></td>
+        <td>
+            <button class="btn-rosa-small" onclick="location.href='../logs.html'">Logs</button>
+            <button class="btn-gray-small">Reiniciar</button>
+            <button class="btn-red-small">Eliminar</button>
+        </td>
+    </tr>
+
+</table>
+`
+})

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "admin-1",
+    "user": "MikuUwU",
+    "email": "miku@gmail.com",
+    "pass": "$2a$10$Qx.lHupmFbp2xU0hHBv0Ze7VgNGwE7QNhx1UTDlInubY2qlJcfntm",
+    "role": "admin",
+    "credits": 999,
+    "instances": 5
+  }
+]

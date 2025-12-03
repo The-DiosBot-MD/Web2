@@ -1,0 +1,19 @@
+@@include('../layouts/layout.html', {
+"title": "Código QR",
+"content": `
+<h2 class="page-section">🔐 Vinculación del Bot</h2>
+
+<div id="qrBox" class="qr-box" style="display:none;">
+
+    <p id="qrText" class="qr-text"></p>
+
+    <img id="qrImage" class="qr-img" style="display:none;">
+
+    <pre id="qrAscii" class="qr-ascii" style="display:none;"></pre>
+
+</div>
+
+<script src="../public/js/ws.js"></script>
+<script src="../public/js/qr.js"></script>
+`
+})

@@ -1,0 +1,98 @@
+/* === VARIABLES ROSAS MÁGICAS === */
+:root {
+    --rosa: #ff7ac4;
+    --rosa-suave: #ffb3dd;
+    --rosa-bg: #ffe6f3;
+    --blanco: #ffffff;
+    --texto: #5a5a5a;
+    --sombra: rgba(255, 122, 196, 0.4);
+    --borde: rgba(255, 122, 196, 0.7);
+}
+
+/* === FONDO LOGIN === */
+.bg-login {
+    background: linear-gradient(135deg, var(--rosa-bg), var(--rosa-suave));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s;
+}
+
+/* === CONTENEDOR === */
+.login-container {
+    background: var(--blanco);
+    padding: 35px;
+    width: 360px;
+    border-radius: 18px;
+    box-shadow: 0 0 25px var(--sombra);
+    text-align: center;
+    animation: float 4s infinite ease-in-out;
+}
+
+.title {
+    color: var(--rosa);
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: var(--texto);
+    margin-bottom: 25px;
+}
+
+/* === INPUTS === */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: 2px solid var(--borde);
+    outline: none;
+    transition: .3s;
+}
+
+input:focus {
+    border-color: var(--rosa);
+    box-shadow: 0 0 10px var(--sombra);
+}
+
+/* === BOTÓN === */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background: var(--rosa);
+    border: none;
+    border-radius: 12px;
+    color: var(--blanco);
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 12px var(--sombra);
+    transition: .3s;
+}
+
+.btn-login:hover {
+    background: var(--rosa-suave);
+}
+
+/* === TEXTO ABAJO === */
+.register-text {
+    margin-top: 18px;
+}
+
+.register-text a {
+    color: var(--rosa);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* === ANIMACIONES === */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes float {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-6px);}
+}

@@ -1,0 +1,44 @@
+.page-section {
+    color: var(--rosa);
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.repo-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.repo-card {
+    width: 300px;
+    background: var(--blanco);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 18px var(--sombra);
+    transition: .3s;
+}
+
+.repo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px var(--sombra);
+}
+
+.repo-card h3 {
+    color: var(--rosa);
+}
+
+.btn-rosa {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: var(--rosa);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-rosa:hover {
+    background: var(--rosa-claro);
+}

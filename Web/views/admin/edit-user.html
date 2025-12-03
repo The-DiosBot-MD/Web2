@@ -1,0 +1,28 @@
+@@include('../../layouts/layout.html', {
+"title": "Editar Usuario",
+"content": `
+<h2 class="page-section">✏ Editar Usuario</h2>
+
+<div class="form-box">
+    <label>Usuario</label>
+    <input type="text" value="MikuUwU">
+
+    <label>Correo</label>
+    <input type="email" value="miku@example.com">
+
+    <label>Rol</label>
+    <select>
+        <option>Admin</option>
+        <option>User</option>
+    </select>
+
+    <label>Límite de instancias</label>
+    <input type="number" value="5">
+
+    <label>Créditos</label>
+    <input type="number" value="999">
+
+    <button class="btn-rosa">Guardar Cambios</button>
+</div>
+`
+})

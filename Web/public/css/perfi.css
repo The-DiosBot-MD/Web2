@@ -1,0 +1,14 @@
+.profile-box {
+    width: 350px;
+    padding: 25px;
+    background: var(--blanco);
+    border-radius: 16px;
+    box-shadow: 0 0 18px var(--sombra);
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}

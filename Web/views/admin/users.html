@@ -1,0 +1,39 @@
+@@include('../../layouts/layout.html', {
+"title": "Usuarios",
+"content": `
+<h2 class="page-section">👥 Usuarios Registrados</h2>
+
+<table class="table">
+    <tr>
+        <th>Usuario</th>
+        <th>Correo</th>
+        <th>Rol</th>
+        <th>Instancias</th>
+        <th>Acciones</th>
+    </tr>
+
+    <tr>
+        <td>MikuUwU</td>
+        <td>miku@example.com</td>
+        <td>Admin</td>
+        <td>3</td>
+        <td>
+            <button class="btn-rosa-small" onclick="location.href='edit-user.html'">Editar</button>
+            <button class="btn-red-small">Eliminar</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>KawaiiUser</td>
+        <td>kawaii@example.com</td>
+        <td>User</td>
+        <td>1</td>
+        <td>
+            <button class="btn-rosa-small">Editar</button>
+            <button class="btn-red-small">Eliminar</button>
+        </td>
+    </tr>
+
+</table>
+`
+})

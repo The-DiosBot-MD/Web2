@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel - Quintillisas Bots</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/dashboard.css">
+</head>
+<body class="bg-panel">
+
+    <!-- ANIMACIÓN DE PÉTALOS -->
+    <canvas id="petals"></canvas>
+
+    <!-- PANEL LATERAL -->
+    <nav class="sidebar">
+        <h2 class="sidebar-title">🌸 Quintillisas Bots</h2>
+        <a href="dashboard.html" class="active">🏠 Dashboard</a>
+        <a href="repos.html">📦 Repositorios</a>
+        <a href="create-instance.html">✨ Crear Instancia</a>
+        <a href="instances.html">🤖 Mis Instancias</a>
+        <a href="profile.html">👤 Perfil</a>
+        <a href="settings.html">⚙ Configuración</a>
+        <hr>
+        <a href="../views/admin/admin.html" class="admin">👑 Admin Panel</a>
+        <a href="#" class="logout">🚪 Cerrar Sesión</a>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="main-content">
+
+        <h1 class="welcome">Bienvenido, <span id="username">Usuario</span> 💗</h1>
+
+        <!-- TARJETAS -->
+        <div class="cards">
+
+            <div class="card">
+                <h3>Repositorios</h3>
+                <p id="repoCount">3</p>
+            </div>
+
+            <div class="card">
+                <h3>Instancias Activas</h3>
+                <p id="activeInstances">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Instancias</h3>
+                <p id="totalInstances">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Créditos</h3>
+                <p id="credits">∞</p>
+            </div>
+
+        </div>
+
+        <!-- GRÁFICO ROSADO -->
+        <div class="chart-container">
+            <canvas id="statsChart"></canvas>
+        </div>
+
+    </main>
+
+    <script src="../public/js/dashboard.js"></script>
+    <script src="../public/js/petals.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.qr-box {
+    background: var(--blanco);
+    padding: 25px;
+    border-radius: 16px;
+    width: 380px;
+    box-shadow: 0 0 18px var(--sombra);
+    text-align: center;
+}
+
+.qr-img {
+    width: 260px;
+    margin-top: 15px;
+}
+
+.qr-ascii {
+    font-family: monospace;
+    font-size: 10px;
+    background: #111;
+    color: #0f0;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+    overflow-x: auto;
+}
