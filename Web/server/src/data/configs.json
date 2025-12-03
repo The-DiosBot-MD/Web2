@@ -1,0 +1,5 @@
+{
+  "maxInstancesPerUser": 5,
+  "startingCredits": 100,
+  "installPath": "/home/QuintillisasBots/instances"
+}
