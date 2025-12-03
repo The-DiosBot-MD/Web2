@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quintillisas Bots - Registro</title>
+    <title>Quintillisas Bots - Login</title>
 
+    <!-- CSS FIX -->
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 
 <body class="bg-login">
 
 <div class="login-container">
-    <h1 class="title">Crear Cuenta</h1>
-    <p class="subtitle">Bienvenida a la familia 🩷</p>
+    <h1 class="title">Quintillisas Bots</h1>
+    <p class="subtitle">Bienvenida de nuevo 💗</p>
 
-    <form id="registerForm">
+    <form id="loginForm">
         <input type="text" id="user" placeholder="Usuario" required>
-        <input type="email" id="email" placeholder="Correo electrónico" required>
         <input type="password" id="pass" placeholder="Contraseña" required>
 
-        <button type="submit" class="btn-login">Registrarse</button>
+        <button type="submit" class="btn-login">Ingresar</button>
     </form>
 
     <p class="register-text">
-        ¿Ya tienes cuenta?
-        <a href="/views/login.html">Inicia sesión</a>
+        ¿No tienes cuenta?
+        <a href="/views/register.html">Crear cuenta</a>
     </p>
 </div>
 
+<!-- SCRIPT REAL -->
 <script src="/public/js/auth.js"></script>
 
 </body>

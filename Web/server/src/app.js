@@ -8,10 +8,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use("/auth", require("./routes/auth.routes"));
-app.use("/users", require("./routes/users.routes"));
-app.use("/repos", require("./routes/repos.routes"));
-app.use("/instances", require("./routes/instances.routes"));
-app.use("/admin", require("./routes/admin.routes"));
+app.use("/api/auth", require("./routes/auth.routes"));
+app.use("/api/users", require("./routes/users.routes"));
+app.use("/api/repos", require("./routes/repos.routes"));
+app.use("/api/instances", require("./routes/instances.routes"));
+app.use("/api/admin", require("./routes/admin.routes"));
 
 module.exports = app;
